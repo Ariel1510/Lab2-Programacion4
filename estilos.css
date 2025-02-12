@@ -75,7 +75,29 @@ body {
     display: none;
   }
   
+  /*Estilo de las etiquetas*/
   h1 {
     text-align: center;
     color: #766445;
   }
+
+  h2 {
+    text-align: center;
+    color: #86511c;
+  }
+
+  /*Animacion*/
+  @keyframes simpleAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.animate {
+    animation: simpleAnimation 1s ease-in-out;
+}
+
+/*Estilo de los input*/
+    .large-input {
+        width: 500px;
+    }
